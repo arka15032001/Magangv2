@@ -1,0 +1,355 @@
+body{
+    background-color: #F4F4F4;
+    
+}
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.67);
+    height: 99px;
+}
+
+/*.gmbr{*/
+/*    margin-top: -30px;*/
+/*}*/
+
+.nav-link {
+    padding: 0;
+    
+    font-size: 16px;
+    margin-top: 10px;  
+}
+
+.in{
+    width: 24px;
+    height: 28px;
+    margin-left: 13px;
+    margin-right: 17px;
+}
+.id{
+    width: 20px;
+    height: 20px;
+}
+
+.free{
+width: 44px;
+height: 19px;
+background: #06BB18;
+border-radius: 4px;
+font-size: 14px;
+padding: 2px;
+color: white;
+}
+
+.fto{
+    width:40px;
+    height: 40px;
+}
+
+/*button*/
+
+.daftar{
+    border-radius: 20px;
+    border: none;
+    width: 84px;
+    height:34px;
+    margin-right: 10px;
+    background: #FF3B3F;
+    color: white;
+    font-size: 16px;
+}
+.daftar:hover{
+    border-radius: 20px;
+    border: none;
+    width: 84px;
+    height:34px;
+    margin-right: 10px;
+    background: #ee0307;
+    color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+.masuk{
+    border-radius: 20px;
+    border: 1px solid #FF3B3F ;
+    width: 84px;
+    height:34px;
+   
+    background:white;
+    color: #FF3B3F;
+    font-size: 16px;
+}
+.masuk:hover{
+    border-radius: 20px;
+    border: 1px solid #FF3B3F ;
+    width: 84px;
+    height:34px;
+   
+    background:white;
+    color: #FF3B3F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/*end navbar*/
+.coba{
+    padding: 43px;
+}
+.input-box{
+    margin-right: 9px;
+    width: 243px;
+    height: 39px;
+    background-color: white;
+    border-radius: 12px;
+    color: #FF3B3F;
+    margin-top: -9px;
+}
+.input-box input{
+    width: 80%;
+    height: 39px; 
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 12px;
+}
+.ij{
+    width: 20px;
+    height: 19px;
+}
+.tmbl{
+    width: 67px;
+    height: 33px;
+    border: none;
+    border-radius: 8px;
+    background-color:#FF3B3F ;
+    color: white;
+    
+    font-weight: bold;  
+}
+.tekan{
+    margin-top: -5px;
+}
+/*akhir cari */
+
+.posisi{
+    margin-top: -74px; 
+    padding: 45px;  
+}
+.judul{
+    margin-bottom: 9px;
+}
+
+.kotak1 {
+    position: relative;
+    left: -15px;
+    padding: 25px;
+    width: 143px;
+    height: 143px;
+    background-color: transparent;
+    /*margin-right: 27px;*/
+    margin-bottom: 27px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 16px rgba(0, 0, 0, 0.22)
+}
+.kotak1 h5{
+    margin-top: 9px;
+    position: absolute;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.logo2{
+    width: 144px;
+    height: 65px;
+    border-radius: 10px; 
+}
+
+.logo3{
+    width: 144px;
+    height: 144px;
+    border-radius: 10px; 
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 25px;
+    width: 144px;
+    height: 144px;
+    background-color: transparent;
+    /*margin-right: 27px;*/
+    margin-bottom: 27px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.22)
+}
+.company{
+    margin-top: -13px;
+    justify-content: center;
+}
+
+.company2{
+    margin-top: -25px;
+    justify-content: center;
+}
+/*.nama{*/
+/*    margin-top: 7px;*/
+/*}*/
+.nama h5{
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+.nama h4{
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+}
+.nama p{
+    font-size: 8px;
+    text-align: center;
+}
+
+.lowongan{
+    margin-top: 15px;
+}
+.lowongan h5{
+    font-weight: bold;
+}
+.lowongan p{
+    font-size: 8px;
+    margin-top: -8px;
+}
+.prshn{
+    margin-top: 15px;
+}
+.prshn h5{
+    font-weight: bold;
+}
+.prshn p{
+    font-size: 14px;
+    margin-top: -8px;
+}
+.full-time{
+    background-color: #F4F4F4;
+    width: 50px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-right: 8px;
+    font-size: 10px;
+    border-radius:6px;
+}
+.jenis{
+    background-color: #F4F4F4;
+    width: 109px;
+    height: 22px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    margin-right: 8px;
+    font-size: 14px;
+    border-radius:6px;
+}
+
+.min{
+    position: relative;
+    left: 64px;
+    background-color: #F4F4F4;
+    width: 92px;
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin-top: -44px;
+    margin-bottom: 28px;
+    margin-right: 60px;
+    margin-left: 10px;
+    font-size: 10px;
+    border-radius:6px;
+}
+
+.lengkap{
+    position: relative;
+    top: -25px;
+    width: 80px;
+    height: 16px;
+    border-radius: 34px;
+    border: 1px solid #FF3B3F ;
+    color: #FF3B3F;
+    background-color: #F4F4F4; 
+    margin-right: 11px;
+    font-size: 10px;
+}
+.lengkap:hover{
+    width: 119px; 
+    height: 29px;
+    border-radius: 34px;
+    border: 1px solid #FF3B3F ;
+    color: #FF3B3F;
+    background-color: transparent;
+    font-weight: bold;
+    margin-right: 11px;
+}
+.lamar{
+    width: 72px;
+    height: 29px;
+    border-radius: 34px;
+    border: none ;
+    color: white;
+    background-color: #FF3B3F; 
+    margin-right: 18px;
+    box-shadow: -1px 1px 16px rgba(0, 0, 0, 0.22);
+}
+.lamar:hover{
+    width: 72px; 
+    height: 29px;
+    border-radius: 34px;
+    border: 1px solid  #FF3B3F; ;
+    color: #FF3B3F;
+    background-color: #F4F4F4;
+    box-shadow: -1px 1px 16px rgba(0, 0, 0, 0.22);
+    margin-right: 18px;
+}
+.ib{
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+
+}
+.lainnya{
+    width: 269px;
+    height: 47px;
+    border: none;
+    background: #00B050;
+    box-shadow: 2px 7px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.lainnya:hover{
+    width: 269px;
+    height: 47px;
+    border-radius: 24px;
+    border: 1px solid  #00B050; 
+    color: #00B050;
+    background-color: #F4F4F4;
+    box-shadow: -1px 1px 16px rgba(0, 0, 0, 0.22);
+    margin-bottom: 30px;
+}
+
+
