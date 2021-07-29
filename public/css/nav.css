@@ -1,46 +1,48 @@
 body {
-    margin: 0 0 55px 0;
+    margin: 0 0 0 0;
     font-family: Segoe UI;
 
 }
 
 .judul {
     position: relative;
-    top: 90px;
+    top: 60px;
     font-weight: bold;
     left: 35px;
+    font-size: 20px;
 }
 
 .bawahjudul{
     position: absolute;
     top: 20px;
     font-weight: normal;
+    font-size: 18px;
 
 }
 .judul2{
-    position: absolute;
-    top: 210px;
+    position: relative;
+    top: 20px;
     font-weight: normal;
     left :35px;
 
 }
 .judul3{
-    position: absolute;
-    top: 405px;
+    position: relative;
+    top: 20px;
     font-weight: normal;
     left :35px;
 
 }
 .judul4{
-    position: absolute;
-    top: 605px;
+    position: relative;
+    top: 20px;
     font-weight: normal;
     left :35px;
 
 }
 .judul5{
-    position: absolute;
-    top: 795px;
+    position: relative;
+    top: 20px;
     font-weight: normal;
     left :35px;
 
@@ -76,7 +78,8 @@ body {
 }
 
 .nav__link:hover {
-    background-color: #eeeeee;
+    background-color: #ff3b3f;
+    text-decoration: none;
 }
 
 .nav__link--active {
@@ -98,20 +101,21 @@ form.example input[type=text] {
   font-size: 17px;
   border: 0px solid grey;
   float: left;
-  width: 80%;
+  width: 85%;
   background: #f1f1f1;
   border-radius: 10px 0 0 10px ;
-  height: 7%;
+  position: relative;
+  justify-content: center;
 }
 
 /* Style the submit button */
 form.example button {
   float: left;
-  width: 20%;
+  width: 15%;
   padding: 10px;
   background: #f1f1f1;
   color: grey;
-  height: 7%;
+  height: 6%;
   font-size: 17px;
   border: 0px ;
   border-left: none; /* Prevent double borders */
@@ -121,6 +125,7 @@ form.example button {
 
 form.example button:hover {
   background: #0b7dda;
+  border-color: transparent;
 }
 
 /* Clear floats */

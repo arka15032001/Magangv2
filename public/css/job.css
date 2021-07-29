@@ -158,39 +158,115 @@ color: white;
     position: absolute;
 }
 .logo{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
 }
 
 .logo2{
-    width: 144px;
-    height: 65px;
+    width: 188px;
+    height: 99px;
     border-radius: 10px; 
 }
 
 .logo3{
-    width: 144px;
-    height: 144px;
+    width: 188px;
+    height: 188px;
     border-radius: 10px; 
 }
 
+
+
 .flex-container {
   display: flex;
+   overflow-x: auto;
+   border :1 px ;
 }
+
+    .flex-container::-webkit-scrollbar{
+      width: 0;
+    }
 
 .flex-container > div{
     position: relative;
     top: 20px;
     left: 20px;
     padding: 25px;
-    width: 144px;
-    height: 144px;
+    width: 188px;
+    height: 188px;
     background-color: transparent;
     /*margin-right: 27px;*/
     margin-bottom: 27px;
     margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
-    box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.22)
+    justify-content: center;
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+
+
+}
+
+.flex-container2 {
+  display: flex;
+   overflow-x: auto;
+   border :1 px ;
+   height: 280px
+}
+
+    .flex-container2::-webkit-scrollbar{
+      width: 0;
+    }
+
+.flex-container2 > div{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 25px;
+    width: 188px;
+    height: 188px;
+    background-color: transparent;
+    /*margin-right: 27px;*/
+    margin-bottom: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+
+
+}
+
+.flex-container3 {
+  display: flex;
+   overflow-x: auto;
+   border :1 px ;
+   height: 240px
+}
+
+    .flex-container3::-webkit-scrollbar{
+      width: 0;
+    }
+
+.flex-container3 > div{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 25px;
+    width: 188px;
+    height: 188px;
+    background-color: transparent;
+    /*margin-right: 27px;*/
+    margin-bottom: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+
+
 }
 .company{
     margin-top: -13px;
@@ -206,8 +282,28 @@ color: white;
 /*}*/
 .nama h5{
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
+}
+
+.nama h1{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nama h2{
+    font-size: 12px;
+    text-align: left; 
+    margin-top: 14px; 
+    font-style: italic;
+
+}
+
+.tengah {
+    position: absolute;
+    top: 60px;
+    left: 22px;
 }
 .nama h4{
     font-weight: normal;
@@ -215,7 +311,7 @@ color: white;
     text-align: center;
 }
 .nama p{
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -241,16 +337,18 @@ color: white;
 }
 .full-time{
     background-color: #F4F4F4;
-    width: 50px;
-    height: 16px;
+    width: 55px;
+    height: 18px;
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 28px;
     margin-right: 8px;
-    font-size: 10px;
+    font-size: 12px;
     border-radius:6px;
+    position: relative;
+    top: 94px;
 }
 .jenis{
     background-color: #F4F4F4;
@@ -267,18 +365,33 @@ color: white;
 
 .min{
     position: relative;
-    left: 64px;
+    left: 67px;
+    top: 92px;
     background-color: #F4F4F4;
-    width: 92px;
-    height: 32px;
+    width: 95px;
+    height: 18px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     text-align: center;
     margin-top: -44px;
-    margin-bottom: 28px;
-    margin-right: 60px;
-    margin-left: 10px;
-    font-size: 10px;
+    margin-right: 78px;
+    margin-left: 12px;
+    font-size: 12px;
+    border-radius:6px;
+}
+.min2{
+    position: relative;
+    left: 67px;
+    top: -30px;
+    background-color: transparent;
+    width: 95px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 78px;
+    margin-left: 12px;
+    font-size: 12px;
     border-radius:6px;
 }
 

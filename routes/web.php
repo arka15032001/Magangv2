@@ -25,6 +25,33 @@ Route::get('/master', function () {
     return view('\FrontEnd\master');
 });
 
+Route::get('/Deskripsi', function () {
+    return view('\FrontEnd\Deskripsi');
+});
+
+Route::get('/Persyaratan', function () {
+    return view('\FrontEnd\Persyaratan');
+});
+
+Route::get('/lowongan', function () {
+    return view('\FrontEnd\lowongan');
+});
+
+Route::get('/perusahaan', function () {
+    return view('\FrontEnd\perusahaan');
+});
+
+Route::get('/event', function () {
+    return view('\FrontEnd\event');
+});
+
+Route::get('/cv', function () {
+    return view('\FrontEnd\cv');
+});
+
+
+
+
 
 /*Route::get('/','App\Http\Controllers\templatecontroller@index');*/
 

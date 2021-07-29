@@ -11,11 +11,23 @@
       color: red;
       height: #FF3B3F;
     }
+
+     .limiter {
+  width: 360px;
+  height: 640px;
+  margin: 0 auto;
+}
+
+
   </style>
   <title>HYPERLOKAL</title>
 </head>
 
+
 <body style="background-color:#FF3B3F;" id="bodyChange">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- //Slider -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -93,6 +105,8 @@
 
   <div class="d-flex justify-content-center">
     <p style="font-size: 12px;color:red;">Belum Punya Akun? <a href="" class="link-warning">Registrasi Disini</a></p>
+  </div>
+
   </div>
 
 
